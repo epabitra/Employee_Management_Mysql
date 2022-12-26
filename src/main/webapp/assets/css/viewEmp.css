@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya", serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+nav ul .active a {
+  color: white;
+}
+
+.container1 {
+  width: 100%;
+  background: url("../images/R.jpg");
+  padding-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.empListTableContainer{
+  	width: 80%;
+	margin: 20px 10%;
+}
+
+#empList{
+  	width: 100%;
+  	background-color: white;
+}
+
+tr{
+	padding: 10px;
+	height: 50px;
+}
+
+tr:nth-child(odd){
+  background-color: aliceblue;
+}
+
+th{
+	text-align: center;
+	font-size: 25px;
+	color: blue;
+}
+
+td{
+	width: 25%;
+	text-align: center;
+}
+button{
+	background-color: black;
+	width: 80px;
+	height: 40px;
+	border-radius: 30px;
+	color: white;
+}
+
+.msg{
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#msg{
+	display: none;
+}
