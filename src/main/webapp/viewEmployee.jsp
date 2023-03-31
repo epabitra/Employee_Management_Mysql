@@ -49,7 +49,7 @@
 	    function loadList(){
 			// Load Employee List
 		    $.ajax({
-		    	url: 'http://localhost:7777/Employee_Management_Mysql/emplist',
+		    	url: 'emplist',
 		    	type: 'post',
 		    	success: function(data, textStatus, jqXHR){
 		        	empList.innerHTML = data;
@@ -68,7 +68,7 @@
 		    	let msg = document.getElementById("msg");
 		    	
 		    	$.ajax({
-		    		url: "http://localhost:7777/Employee_Management_Mysql/deleteemp",
+		    		url: "deleteemp",
 		    		data: param,
 		    		type: 'post',
 		    		success: function(data, textStatus, jqXHR){

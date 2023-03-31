@@ -82,7 +82,7 @@
 	     
 	        let params = "name="+name+"&salary="+salary+"&dob="+dob+"&gender="+gender+"&address="+address;
 	    	$.ajax({
-	    		url: "http://localhost:7777/Employee_Management_Mysql/register",
+	    		url: "register",
 	    		data: params,
 	    		type: 'post',
 	    		success: function(data, textStatus, jqXHR){
