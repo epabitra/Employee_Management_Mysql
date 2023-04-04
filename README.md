@@ -1,7 +1,7 @@
 
 # Employee Management System
 
-It is simply a dummy application used to demonstrate the Employee Management System.
+It is simply a Web Application used to demonstrate the Employee Management System.
 
 #### If you want to try this application by your self then don't worry i will explain all the steps you need to run this application on your Laptop / PC.
 
